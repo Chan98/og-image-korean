@@ -52,8 +52,8 @@ function getArray(stringOrArray: string[] | string | undefined): string[] {
 
 function getDefaultImages(images: string[], theme: Theme): string[] {
     const defaultImage = theme === 'light'
-        ? 'https://morethan-log.vercel.app/avatar.svg'
-        : 'https://morethan-log.vercel.app/avatar.svg';
+        ? 'https://idontknow-log.vercel.app/avatar.svg'
+        : 'https://idontknow-log.vercel.app/avatar.svg';
 
     if (!images || !images[0]) {
         return [defaultImage];
